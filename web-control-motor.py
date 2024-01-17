@@ -50,26 +50,26 @@ def webpage(temperature, state):
             <!DOCTYPE html>
             <html>
                 <body>
-                    <form action="./lighton">
-                        <input type="submit" value="Light on" />
+                    <form action="./lighton" style="width: 80%" >
+                        <div><input type="submit" value="Light on" style="width: 80%" /></div>
                     </form>
-                    <form action="./lightoff">
-                        <input type="submit" value="Light off" />
+                    <form action="./lightoff" style="width: 80%" >
+                        <div><input type="submit" value="Light off" style="width: 80%" /></div>
                     </form>
-                    <form action="./forward">
-                        <input type="submit" value="forward" />
+                    <form action="./forward" style="width: 80%" >
+                        <div><input type="submit" value="forward" style="width: 80%" /></div>
                     </form>
-                    <form action="./backward">
-                        <input type="submit" value="backward" />
+                    <form action="./backward" style="width: 80%" >
+                        <div><input type="submit" value="backward" style="width: 80%" /></div>
                     </form>
-                    <form action="./left">
-                        <input type="submit" value="left" />
+                    <form action="./left" style="width: 80%" >
+                        <div><input type="submit" value="left" style="width: 80%" /></div>
                     </form>
-                    <form action="./right">
-                        <input type="submit" value="right" />
+                    <form action="./right" style="width: 80%" >
+                        <div><input type="submit" value="right" style="width: 80%" /></div>
                     </form>
-                    <form action="./stop">
-                        <input type="submit" value="stop" />
+                    <form action="./stop" style="width: 80%" >
+                        <div><input type="submit" value="stop" style="width: 80%" /></div>
                     </form>
                     <p>{state}</p>
                     <p>Temperature is {temperature}</p>
